@@ -7,6 +7,7 @@ public class A {
 		A a=new A();
 		a.m1();
 		a.m2();
+		a.m3();
 	}
 	
 	public void m1() 
@@ -17,5 +18,9 @@ public class A {
 	{
 	
 	System.out.println("Method m2");
+	}
+	public void m3()
+	{
+	System.out.println("Method m3");
 	}
 }
